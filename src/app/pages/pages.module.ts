@@ -19,6 +19,7 @@ import { SharedModule } from '../shared/shared.module';
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
+import { PromesasComponent } from './promesas/promesas.component';
 
 
 
@@ -31,7 +32,8 @@ import { PAGES_ROUTES } from './pages.routes';
         PagesComponent,
         IncrementadorComponent,
         GraficaDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent
     ],
     exports: [
         DashboardComponent,
