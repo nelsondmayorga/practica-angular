@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 // Componentes
@@ -9,12 +10,14 @@ import { PagesComponent } from './pages.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { ProfileComponent } from './profile/profile.component';
 
 // Charts
 import { ChartsModule } from 'ng2-charts';
 
 // Modulos
 import { SharedModule } from '../shared/shared.module';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 // Rutas
@@ -33,7 +36,8 @@ import { PromesasComponent } from './promesas/promesas.component';
         IncrementadorComponent,
         GraficaDonaComponent,
         AccountSettingsComponent,
-        PromesasComponent
+        PromesasComponent,
+        ProfileComponent
     ],
     exports: [
         DashboardComponent,
@@ -42,10 +46,12 @@ import { PromesasComponent } from './promesas/promesas.component';
         PagesComponent
     ],
     imports: [
+        CommonModule,
         SharedModule,
         PAGES_ROUTES,
         FormsModule,
-        ChartsModule
+        ChartsModule,
+        PipesModule
     ]
 })
 

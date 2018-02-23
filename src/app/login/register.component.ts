@@ -4,7 +4,7 @@ import { UsuarioService } from '../services/service.index';
 
 import { Usuario } from '../models/usuario.model';
 
-import * as swal from 'sweetalert';
+import swal from 'sweetalert';
 import { Router } from '@angular/router';
 
 
