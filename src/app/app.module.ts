@@ -32,6 +32,7 @@ import { ServiceModule } from './services/service.module';
     LoginComponent,
     RegisterComponent,
     
+    
   ],
   imports: [
     BrowserModule,

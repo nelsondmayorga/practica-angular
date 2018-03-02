@@ -11,6 +11,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Charts
 import { ChartsModule } from 'ng2-charts';
@@ -23,6 +24,7 @@ import { PipesModule } from '../pipes/pipes.module';
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
 import { PromesasComponent } from './promesas/promesas.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 
@@ -37,7 +39,9 @@ import { PromesasComponent } from './promesas/promesas.component';
         GraficaDonaComponent,
         AccountSettingsComponent,
         PromesasComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,

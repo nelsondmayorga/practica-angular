@@ -13,8 +13,17 @@ export class SidebarService {
         {titulo: 'Graficas', url: '/graficas1'},
         {titulo: 'Promesas', url: '/promesas'},
       ]
+    },
+    {
+      titulo: 'Mantenimientos',
+      icono: 'mdi mdi-folder-lock-open',
+      submenus: [
+        {titulo: 'Usuarios', url: '/usuarios'},
+        {titulo: 'Hospitales', url: '/hospitales'},
+        {titulo: 'Médicos', url: '/medicos'}
+      ]
     }
-  ]
+  ];
 
   constructor() { }
 
