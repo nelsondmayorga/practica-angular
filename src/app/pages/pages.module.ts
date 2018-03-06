@@ -25,6 +25,9 @@ import { PipesModule } from '../pipes/pipes.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { PromesasComponent } from './promesas/promesas.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 
 
@@ -41,7 +44,10 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
         PromesasComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent
+        ModalUploadComponent,
+        HospitalesComponent,
+        MedicosComponent,
+        MedicoComponent
     ],
     exports: [
         DashboardComponent,
